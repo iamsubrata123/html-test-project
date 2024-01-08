@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.112" height="18.588" viewBox="0 0 19.112 18.588">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2771" data-name="Rectangle 2771" width="18.393" height="17.53" fill="none" stroke="#424446" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_292" data-name="Group 292" transform="translate(-319.07 -3187.287)">
+    <g id="Group_162" data-name="Group 162" transform="translate(319.57 3188.345)">
+      <g id="Group_161" data-name="Group 161" clip-path="url(#clip-path)">
+        <path id="Path_17676" data-name="Path 17676" d="M5.893,15.951a.5.5,0,0,1-.418-.774,7.121,7.121,0,0,1,2.5-2.323.5.5,0,0,1,.484.875,6.118,6.118,0,0,0-2.148,2A.5.5,0,0,1,5.893,15.951Z" transform="translate(-1.377 -3.105)" fill="#424446"/>
+        <path id="Path_17677" data-name="Path 17677" d="M13.3,9.32h-1V8.65a.65.65,0,0,0-1.3,0V9.32H10V8.65a1.65,1.65,0,0,1,3.3,0Z" transform="translate(-2.453 -1.752)" fill="#424446"/>
+        <path id="Line_1033" data-name="Line 1033" d="M17.626.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H17.626a.5.5,0,0,1,.5.5A.5.5,0,0,1,17.626.5Z" transform="translate(0.383 17.147)" fill="#424446"/>
+        <path id="Path_17681" data-name="Path 17681" d="M17.594,18.422H1.5a.5.5,0,0,1-.5-.5,8.547,8.547,0,1,1,17.093,0A.5.5,0,0,1,17.594,18.422Zm-15.577-1H17.077a7.547,7.547,0,0,0-15.061,0Z" transform="translate(-0.35 -2.307)" fill="#424446"/>
+      </g>
+    </g>
+    <g id="Group_163" data-name="Group 163" transform="translate(13 -2.155)">
+      <path id="Line_1034" data-name="Line 1034" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(319.57 3192.5)" fill="#424446"/>
+      <path id="Line_1037" data-name="Line 1037" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.127 3189.943) rotate(90)" fill="#424446"/>
+      <path id="Line_1035" data-name="Line 1035" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.979 3192.5)" fill="#424446"/>
+      <path id="Line_1036" data-name="Line 1036" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.127 3193.353) rotate(90)" fill="#424446"/>
+    </g>
+    <g id="Group_165" data-name="Group 165" transform="translate(0 0.401)">
+      <path id="Line_1034-2" data-name="Line 1034" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(319.57 3192.5)" fill="#424446"/>
+      <path id="Line_1037-2" data-name="Line 1037" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.127 3189.943) rotate(90)" fill="#424446"/>
+      <path id="Line_1035-2" data-name="Line 1035" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.979 3192.5)" fill="#424446"/>
+      <path id="Line_1036-2" data-name="Line 1036" d="M1.7.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H1.7a.5.5,0,0,1,.5.5A.5.5,0,0,1,1.7.5Z" transform="translate(322.127 3193.353) rotate(90)" fill="#424446"/>
+    </g>
+  </g>
+</svg>
