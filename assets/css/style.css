@@ -8,6 +8,22 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
+
+@media (min-width: 1600px){
+	.container {
+    	max-width: 1450px;
+	}
+}
+
+@media (min-width: 1900px){
+	.container {
+    	max-width: 1700px;
+	}
+}
+
+
+
 a {
   color: #1e816e;
   text-decoration: none;
@@ -74,6 +90,12 @@ h6 {
   opacity: 1;
 }
 
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -112,7 +134,7 @@ a.list-guest-btn {
     object-fit: contain;
 }
 .social-links a {
-    padding: 0 20px;
+    padding: 0 30px;
 }
 a.ng-star-inserted {
     padding: 0px;
@@ -184,6 +206,7 @@ ul.dropdown-menu {
 */
 .navbar {
   padding: 0;
+width: 100%;
 }
 
 .navbar ul {
@@ -196,13 +219,14 @@ ul.dropdown-menu {
 
 .navbar li {
   position: relative;
+    margin-right: 40px;
 }
 
 .navbar a, .navbar a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 13px 10px 15px;
+    padding: 10px 0 10px 8px;
     font-family: "Raleway", sans-serif;
     font-size: 13px;
     font-weight: 600;
@@ -224,7 +248,6 @@ ul.dropdown-menu {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #1e816e;
-  padding: 10px 13px 10px 0px;
 }
 
 .navbar .dropdown ul {
@@ -280,6 +303,26 @@ ul.dropdown-menu {
   visibility: visible;
 }
 
+.navbar li.upload_bttn{
+    margin-left: auto;
+}
+
+.navbar ul{
+    width: 100%;
+    max-width: 100%;
+/*    margin-left: -15px;*/
+}
+
+.navbar .dropdown ul{
+    width: 230px;
+    max-width: 230px;
+}
+
+#topbar .contact-info{
+    padding-left: 15px;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -289,6 +332,9 @@ ul.dropdown-menu {
     left: -100%;
   }
 }
+
+
+
 
 /**
 * Mobile Navigation 
@@ -345,6 +391,7 @@ ul.dropdown-menu {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+    width: auto;
 }
 
 .navbar-mobile a,
@@ -402,6 +449,7 @@ ul.dropdown-menu {
 li.dropdown a span img {
     width: 15px;
     margin-right: 4px;
+    margin-top: -2px;
 }
 
 .upload_bttn span img{
@@ -446,12 +494,13 @@ li.upload_bttn span {
     cursor: pointer!important;
     height: 50px;
     width: auto;
-    padding: 8px 26px;
+    padding: 0px 26px;
     background-color: #1f6f60;
     color: #fff;
     border-radius: 6px;
     font-size: 18px;
     border: 1px solid #1f6f60;
+    line-height: 47px
 }
 
 .hero .btn-book-a-table:hover {
@@ -462,13 +511,14 @@ li.upload_bttn span {
 cursor: pointer!important;
     height: 50px;
     width: auto;
-    padding: 8px 26px;
+    padding: 0px 26px;
     color: #1f6f60;
     border: 1px solid #1f6f60;
     border-radius: 6px;
     font-size: 18px;
   background: 0 0;
   margin-left: 12px;
+    line-height: 47px;
 }
 
 @media (max-width: 640px) {
@@ -497,7 +547,7 @@ section {
 .section-header h2 {
   font-size: 32px;
   color: #0c2e8a;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
@@ -559,7 +609,7 @@ section.services {
 }
 .services .section-header h2 {
     color: #1a584d;
-    margin-bottom: 20px;
+    margin-bottom: 00px;
     text-align: center;
     font-size: 45px;
     font-family: "arial, sans-serif";
@@ -915,6 +965,9 @@ button.send-bttn img {
 a.bd_none {
     border: none;
 }
+.mobile-logo {
+    display: none;
+}
 /*--------------------------------------------------------------
 # Responsive 
 --------------------------------------------------------------*/
@@ -928,7 +981,7 @@ a.bd_none {
     display: none;
 }
 	.mobile-logo {
-    display: block;
+    display: block !important;
 }
 section#topbar .container {
     border-bottom: 0;
@@ -1010,6 +1063,9 @@ li.upload_bttn span {
     background: url(../img/top-bg.png)  no-repeat top center, url(../img/bottom-bg.png) no-repeat bottom center ;
     padding-top: 83px;
     padding-bottom: 83px;
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .messaging-img img{
@@ -1032,7 +1088,7 @@ li.upload_bttn span {
 }
 
 .home-messaging-sec2{
-    max-width: 1700px;
+    max-width: 1900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1119,22 +1175,229 @@ li.upload_bttn span {
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
      font-size: 22px;
 }
-.product .swiper-pagination{
-  display: none;
-  
-}
-.product{
-  margin-bottom: 100px;
+
+.navbar li.upload_bttn{
+    margin-right: 0px;
 }
 
+ .navbar .dropdown ul li{
+     margin-right: 0px !important;
+}
 
 
 
 
+@media only screen and (max-width: 1700px){
+    .messaging-img-cont{
+        max-width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1699px){
+    .navbar li{
+        margin-right: 25px;
+    }
+    .messaging-img-rightpic2{
+        right: -100px;
+    }
+    .messaging-img-leftpic3{
+        left:-90px;
+    }
+   
+    
+}
 
 
+@media only screen and (max-width: 1599px){
+     
+    .messaging-img-cont {
+    max-width: 540px;
+}
+    
+    .home-messaging .content{
+        padding-left: 30px;
+    }
+    .messaging-img-leftpic3{
+        width: 60px;
+        left: -80px;
+    }
+    .messaging-img-rightpic3{
+        width: 60px;
+        right: -60px;
+    }
+    
+    .messaging-img-rightpic2{
+         width: 60px;
+        right: -60px;
+    }
+    .messaging-img-leftpic2{
+        width: 60px;
+        left: -80px;
+        bottom: 70px;
+    }
+    
+}
 
+@media only screen and (max-width: 1439px){
+    .navbar a, .navbar a:focus{
+        font-size: 11px;
+    }
+    
+    .navbar li {
+    margin-right: 12px;
+}
+    
+    .messaging-img-cont{
+        width: 400px;
+        background-size: 300px;
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    
+    .services .card-content span{
+        font-size: 15px;
+    }
+    
+    .carousel-control-next, .carousel-control-prev{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .messaging-img-leftpic1{
+        width: 60px;
+        left: -60px;
+    }
+    
+    .messaging-img-rightpic1{
+        width: 60px;
+        bottom: 40px;
+    }
+    
+    .content h2 {
+    font: normal normal 600 26px/28px utopia-std-display,serif;
+    }
+    span.title-sm{
+        font-size: 13px;
+    }
+        .content, .feature-desc{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .btn-book{
+        font-size: 14px;
+    }
+    
+    .messaging-img-rightpic2{
+        top: 74px;
+    }
+    
+}
 
+@media only screen and (max-width: 1199px){
+    .navbar{
+        width: auto;
+    }
+    
+    .hero .img-fluid{
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .features .box {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    
+    section.services{
+        margin-top: 0px;
+    }
+    .footer-title{
+        border-right: 0px;
+    }
+    .footerlinkbtm{
+        padding-left: 15px;
+    }
+    
+}
+@media only screen and (max-width: 750px){
+    .hero .img-fluid{
+        max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    .messaging-img-cont {
+    width: 270px;
+    background-size: 160px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+    
+    .messaging-img-leftpic1 {
+    width: 40px;
+    left: -40px;
+}
+    
+    .messaging-img-rightpic1 {
+    width: 40px;
+    bottom: -20px;
+    right: -50px;
+}
 
+    .messaging-img-leftpic2 {
+    width: 40px;
+    left: -40px;
+    bottom: 0px;
+}
+    .messaging-img-rightpic2 {
+    top: 34px;
+    width: 40px;
+    right: -45px;
+}
+    
+    .home-messaging-sec2.home-messaging .content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    
+    .messaging-img-leftpic3 {
+    width: 40px;
+    left: -50px;
+}
+    
+   .messaging-img-rightpic3 {
+    width: 40px;
+    right: -50px;
+    bottom: 0;
+} 
+    .hero h2, .services .section-header h2, .product .section-header h2 {
+    font-size: 24px;
+        margin-bottom: 18px;
+        padding-bottom: 0px;
+}
+    
+    .hero p, .services .section-header p{
+        font-size: 16px;
+    }
+    
+    .services .card-box{
+        margin: 0px;
+    }
+    
+    .col-lg-6.content p{
+        font-size: 14px;
+    }
+    .footer-title h2{
+        font-size: 22px;
+    }
+}
 
 
